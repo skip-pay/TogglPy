@@ -25,14 +25,14 @@ long_description = read('README.md')
 
 
 setuptools.setup(
-    name='TogglPy',
+    name='skip-TogglPy',
     version=find_version('toggl', '__init__.py'),
     description='Python library for interacting with the Toggl API.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/matthewdowney/TogglPy',
-    author="Matthew Downey",
-    author_email='matthewdowney20@gmail.com',
+    url='https://github.com/skip-pay/TogglPy',
+    author="Skip Pay",
+    author_email='developers@skippay.cz',
     license='MIT License',
     zip_safe=False,
     packages=setuptools.find_packages(),
