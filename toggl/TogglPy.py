@@ -30,16 +30,16 @@ else:
 # Class containing the endpoint URLs for Toggl
 # --------------------------------------------
 class Endpoints():
-    WORKSPACES = "https://api.track.toggl.com/api/v8/workspaces"
-    CLIENTS = "https://api.track.toggl.com/api/v8/clients"
-    PROJECTS = "https://api.track.toggl.com/api/v8/projects"
-    TASKS = "https://api.track.toggl.com/api/v8/tasks"
+    WORKSPACES = "https://api.track.toggl.com/api/v9/workspaces"
+    CLIENTS = "https://api.track.toggl.com/api/v9/clients"
+    PROJECTS = "https://api.track.toggl.com/api/v9/projects"
+    TASKS = "https://api.track.toggl.com/api/v9/tasks"
     REPORT_WEEKLY = "https://api.track.toggl.com/reports/api/v2/weekly"
     REPORT_DETAILED = "https://api.track.toggl.com/reports/api/v2/details"
     REPORT_SUMMARY = "https://api.track.toggl.com/reports/api/v2/summary"
-    START_TIME = "https://api.track.toggl.com/api/v8/time_entries/start"
-    TIME_ENTRIES = "https://api.track.toggl.com/api/v8/time_entries"
-    CURRENT_RUNNING_TIME = "https://api.track.toggl.com/api/v8/time_entries/current"
+    START_TIME = "https://api.track.toggl.com/api/v9/time_entries/start"
+    TIME_ENTRIES = "https://api.track.toggl.com/api/v9/time_entries"
+    CURRENT_RUNNING_TIME = "https://api.track.toggl.com/api/v9/time_entries/current"
 
     @staticmethod
     def STOP_TIME(id):

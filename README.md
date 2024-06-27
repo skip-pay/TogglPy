@@ -1,6 +1,7 @@
 # TogglPy
 
-> **Archived**: I'm sunsetting this library. See #61. 
+> **Forked**: The [original project](https://github.com/matthewdowney/TogglPy) was archived, this is fork partially patched for [Toggl API](https://engineering.toggl.com/docs/) v9.
+> For fully patched project check out [other forks](https://github.com/matthewdowney/TogglPy/forks).  
 
 [![Latest PyPI version](https://img.shields.io/pypi/v/TogglPy.svg)](https://pypi.org/project/TogglPy/)
 
